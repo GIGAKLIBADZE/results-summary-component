@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #ECF2FF;
+}
+
+.blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    padding: 24px 56px 40px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #CAC9FF;
+    line-height: 23.45px;
+    text-align: center;
+}
+
+.score {
+    margin: 35px 0px 28px;
+    padding: 25px 40px 22px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.score .upper {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 72px;
+    text-align: center;
+    color:  #ffffff;
+}
+
+.score .lower {
+    font-weight: 700;
+    font-size: 16px;
+    opacity: 51.68%;
+    line-height: 20.85px;
+    color: #CAC9FF;
+    text-align: center;
+}
+
+.rate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.greatp {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.detail-info {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal; 
+    text-align: center;
+    width: 260px;
+    height: 42px;
+    color: #CAC9FF;
+}
+
+.white {
+    padding: 24px 30px 30px;
+    background-color: #FFFFFF;
+}
+
+h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #303B59;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 0px 24px;
+}
+
+.memory, .reaction, .verbal, .visual {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 315px;
+    height: 56px;
+    border-radius: 12px;
+}
+
+.summary-rate {
+    margin-right: 16px;
+}
+
+.flex-group {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.reaction-text {
+    color: #F55;
+}
+
+.memory-text {
+    color: #FFB21E;
+}
+
+.verbal-text {
+    color: #00BB8F;
+}
+
+.visual-text {
+    color: #1125D6;
+}
+
+.your-score {
+    color: #303B59;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hundred {
+    opacity: 50%;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.073);
+}
+
+.memory {
+    background-image: hsla(39, 100%, 56%, 0.073);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.073);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.073);
+}
+
+.btn {
+    width: 315px;
+    height: 56px;
+    background-color: #303B59;
+    border-radius: 128px;
+    border: none;
+}
+.btn:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
+.btn p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFFFFF;
+
+}
+
+@media all and (min-width:  1440px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 736px;
+        height: 512px;
+        background-color: #FFFFFF;
+    }
+
+    .blue {
+        padding: 38px 54px 55px;
+        border-radius: 32px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .score {
+        padding: 55px 59px 40px;
+    }
+
+    .rate {
+        gap: 14px;
+    }
+
+    .greatp {
+        font-size: 32px;
+    }
+
+    .detail-info {
+        font-size: 18px;
+        margin-bottom: 55px;
+    }
+
+    .white {
+        padding: 38px 40px 46px;
+        border-top-right-radius: 32px;
+        border-bottom-right-radius: 32px;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .list {
+        margin: 28px 0px 41px;
+        align-items: center;
+    }
+
+    .reaction-text, .memory-text, .verbal-text, .visual-text {
+        font-size: 18px;
+    }
+
+    .your-score, .hundred {
+        font-size: 18px;
+    }
+
+    .memory, .reaction, .verbal, .visual {
+        width: 288px;
+    }
+    
+    .btn {
+        width: 288px;
+    }
+}
